@@ -4710,3 +4710,46 @@ html[dir=rtl] .notification-left-aligned {
 .upload-dropzone {
   border: 1px solid #87929D;
 }
+
+/* Joshua Additions */
+
+.submit-a-request {
+	display: block;
+	text-align: center;
+} 
+
+
+.button-container{
+  display: inline-block;
+  justify-content: space-between;
+
+  
+}
+
+.josh_button {
+  padding: 35px 45px;
+  border: 2px solid black;
+  background-color: transparent; /* Button background color */
+  color: black; /* Text color */
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth color transition */
+  margin: 0 5px; /* Spacing between buttons */
+  text-align: center; /* Center button text */
+  box-sizing: border-box;
+}
+
+  
+/* Hover effect */
+  .josh_button:hover {
+    background-color: #2980b9; /* Darker color on hover */
+  }
+  
+
+.hours {
+  text-align: center;
+  bottom:0;
+  right:0;
+  font-size: 16px;
+}
