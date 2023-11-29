@@ -4713,21 +4713,23 @@ html[dir=rtl] .notification-left-aligned {
 
 /* Joshua Additions */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.button-section1{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
 .submit-a-request {
 	display: block;
 	text-align: center;
+  font-family: 'Roboto', sans-serif;
 } 
 
 
-.button-container{
-  display: inline-block;
-  justify-content: space-between;
-
-  
-}
-
 .josh_button {
-  padding: 35px 45px;
+  padding: 35px 55px;
   border: 2px solid black;
   background-color: transparent; /* Button background color */
   color: black; /* Text color */
@@ -4735,7 +4737,7 @@ html[dir=rtl] .notification-left-aligned {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Smooth color transition */
-  margin: 0 5px; /* Spacing between buttons */
+  margin: 0 15px; /* Spacing between buttons */
   text-align: center; /* Center button text */
   box-sizing: border-box;
 }
@@ -4743,7 +4745,8 @@ html[dir=rtl] .notification-left-aligned {
   
 /* Hover effect */
   .josh_button:hover {
-    background-color: #2980b9; /* Darker color on hover */
+    background-color: #000; /* Darker color on hover */
+    color: white;
   }
   
 
@@ -4752,4 +4755,10 @@ html[dir=rtl] .notification-left-aligned {
   bottom:0;
   right:0;
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .button-section1 {
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center-align buttons */
 }
