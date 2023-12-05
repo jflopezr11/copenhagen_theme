@@ -4718,7 +4718,11 @@ html[dir=rtl] .notification-left-aligned {
 .button-section1{
   display: flex;
   justify-content: center;
-  padding-top: 5%;
+  padding-top: 1%;
+}
+
+.button_titles h2{
+  text-align: center;
 }
 
 .submit-a-request {
