@@ -1,3 +1,20 @@
+# Project- The Tale of the Unused Zendesk Landing Page: A Masterclass in Pointless Projects
+
+So there I was, daring to voice my discontent with my role at Intellum. Naturally, my Customer Experience director, being the picture of proactivity, gave me a project that would surely reignite my passion: designing a brand-new landing page for customers to submit technical support tickets. Fun, right?
+
+The kicker? This wasn't just any project. No, no. It was a project doomed from the start because drumroll please... we were phasing out Zendesk. That's right—I was tasked with creating a landing page for a platform we weren't even going to use anymore. But did that stop me? Of course not. Like the professional I am, I finished that landing page faster than the transition to Salesforce even began.
+
+So, five months later, the project sat there, pristine and unused, a perfect monument to how efficiently I can produce work that will never see the light of day. I mean, what's better for morale than pouring your heart into a project that was dead on arrival?
+
+In the end, I suppose my Customer Experience director got what they wanted: I was too busy churning out a beautiful, functional landing page (that no one will ever use) to complain. Mission accomplished, I guess.
+
+[View HTML Code](#templates/home_page.hbs)
+[View HTML Code 2](templates/footer.hbs)
+[View HTML Code 3](templates/header.hbs)
+[View CSS Code](#style.css)
+[View JS Code](src/forms.js)
+
+
 # Copenhagen Theme by Zendesk
 
 The Copenhagen theme is the default Zendesk Guide theme. It is designed to be responsive and accessible.
