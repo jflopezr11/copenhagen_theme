@@ -8,7 +8,7 @@ So, five months later, the project sat there, pristine and unused, a perfect mon
 
 In the end, I suppose my Customer Experience director got what they wanted: I was too busy churning out a beautiful, functional landing page (that no one will ever use) to complain. Mission accomplished, I guess.
 
-[View HTML Code](#templates/home_page.hbs)
+[View HTML Code](templates/home_page.hbs)
 [View HTML Code 2](templates/footer.hbs)
 [View HTML Code 3](templates/header.hbs)
 [View CSS Code](#style.css)
